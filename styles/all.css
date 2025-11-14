@@ -1,5 +1,6 @@
 #banner {
-    height: 400px;
+    height: 550px;
+    width: 100%;
 }
 
 :root {
@@ -9,6 +10,8 @@
     --laranja: #F4A623;
     --preto: #000000;
     --branco: #FFFFFF;
+    --cinza: rgb(240, 240, 240);
+    --cinza-escuro: rgb(165, 164, 164);
 }
 
 header, footer{
@@ -23,3 +26,8 @@ header, footer{
 #text-dog-section{
 color: var(--azul);
 }
+
+#logo{
+  max-height: 50px;
+}
+
